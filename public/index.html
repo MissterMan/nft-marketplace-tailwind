@@ -35,7 +35,7 @@
                     <div><a class="block py-2 hover:font-bold" href="#">Resource</a></div>
                     <div><a class="block py-2 hover:font-bold" href="#">Create</a></div>
                 </div>
-                <div class="md:flex md:space-x-6 px-3">
+                <div class="md:flex items-center space-x-6 px-3">
                     <a class="block pb-3 md:pb-0" href="#">
                         <div class="flex items-center space-x-2">
                             <img class="w-7 h-7"
@@ -43,13 +43,18 @@
                             <p class="text-sm font-medium lg:hidden">Account</p>
                         </div>
                     </a>
-                    <a class="block" href="#">
+                    <a class="md:block hidden w-fit bg-black group hover:bg-white rounded-md border-2 hover:border-black duration-300" href="">
+                        <div>
+                            <p class="text-white text-sm font-bold px-5 py-3 group-hover:text-black">Upload NFT</p>
+                        </div>
+                    </a>
+                    <!-- <a class="block" href="cart.html">
                         <div class="flex items-center space-x-2">
                             <img class="w-7 h-7"
                                 src="https://img.icons8.com/fluency-systems-regular/96/000000/shopping-basket-2.png" />
                             <p class="text-sm font-medium lg:hidden">Cart</p>
                         </div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -78,12 +83,13 @@
     <!-- Features -->
     <div class="w-full">
         <div class="lg:flex justify-center my-16 lg:my-32">
+
             <div class="flex mx-auto lg:mx-0 py-5 w-80 font-medium text-sm space-x-4 border-b lg:border-b-0 lg:border-r">
                 <div class="shrink-0"><img src="https://img.icons8.com/material/48/000000/about--v1.png" /></div>
                 <div>
-                    <h1 class= font-extrabold text-base">What is NFT's ?</h1>
+                    <h1 class= "font-extrabold text-base">What is NFT's ?</h1>
                     <p>NFTs are tokens that we can use to represent ownership of unique items.<a
-                            class="text-blue-600 underline font-bold"
+                            class="text-blue-600 font-semibold hover:underline"
                             href="https://ethereum.org/en/nft/#:~:text=NFTs%20are%20tokens%20that%20we%20can%20use%20to%20represent%20ownership%20of%20unique%20items.%20They%20let%20us%20tokenise%20things%20like%20art%2C%20collectibles%2C%20even%20real%20estate.">
                             Learn More</a></p>
                 </div>
@@ -91,26 +97,27 @@
             <div class="flex mx-auto py-5 w-80 font-medium text-sm space-x-4 border-b lg:border-b-0 lg:border-r lg:mx-5">
                 <div class="shrink-0"><img src="https://img.icons8.com/material/48/000000/wallet--v1.png" /></div>
                 <div>
-                    <h1 class= font-extrabold text-base">Setup your wallet</h1>
-                    <p>NFTs are tokens that we can use to represent ownership of unique items.<a
-                            class="text-blue-600 font-semibold"
+                    <h1 class= "font-extrabold text-base">Setup your wallet</h1>
+                    <p class="mr-5">Once you setup your<a
+                            class="text-blue-600 font-semibold hover:underline"
                             href="https://ethereum.org/en/nft/#:~:text=NFTs%20are%20tokens%20that%20we%20can%20use%20to%20represent%20ownership%20of%20unique%20items.%20They%20let%20us%20tokenise%20things%20like%20art%2C%20collectibles%2C%20even%20real%20estate.">
-                            Learn More</a></p>
+                            wallet </a>connect it to Collective in your profile setting.</p>
                 </div>
             </div>
             <div class="flex mx-auto lg:mx-0 py-5 w-80 font-medium text-sm space-x-4">
                 <div class="shrink-0"><img src="https://img.icons8.com/material/48/000000/diversity.png" /></div>
                 <div>
-                    <h1 class= font-extrabold text-base">Create your collection</h1>
-                    <p>NFTs are tokens that we can use to represent ownership of unique items.<a
-                            class="text-blue-600 font-semibold"
+                    <h1 class= "font-extrabold text-base">Create your collection</h1>
+                    <p>Click My Collection and set up your<a
+                            class="text-blue-600 font-semibold hover:underline"
                             href="https://ethereum.org/en/nft/#:~:text=NFTs%20are%20tokens%20that%20we%20can%20use%20to%20represent%20ownership%20of%20unique%20items.%20They%20let%20us%20tokenise%20things%20like%20art%2C%20collectibles%2C%20even%20real%20estate.">
-                            Learn More</a></p>
+                            collection</a>.</p>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Stats -->
     <div class="h-auto mx-3 lg:mx-44 my-20">
         <div class="bg-black dark:bg-slate-600 rounded-2xl">
             <div class="md:flex py-16 justify-evenly">
@@ -129,7 +136,6 @@
             </div>
         </div>
     </div>
-
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
