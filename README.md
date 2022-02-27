@@ -1,4 +1,5 @@
-# nft-marketplace-tailwind
+# Landing page NFT marketplace
+landing page clone web dari OpenSea menggunakan framework tailwind css, sudah responsive tapi masih mangkrak karena bigung masu ngisi konten apa aja di websitenya
 
-NFT marketplace landing page using tailwindcss
+
 (Design inspired by OpenSea)
